@@ -1,18 +1,30 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-    }
-    img {
-        max-width: 100%;
-    }
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+img {
+max-width: 100%;
+}
+
 .debug header{
 min-height: 100px;
 background-color: aquamarine;
 }    
 .debug main{
-
+min-height: 400px;
+background-color: blue;
 }
-.debug footer{
 
+.debug footer{
+min-height: 250px;
+background-color: goldenrod
+}
+.row{
+    display: flex;
+}
+.row [class^='col']{
+border: 3px dashed black;
+padding: 10px;
+flex-basis: 25%;
 }
