@@ -10,13 +10,16 @@ max-width: 100%;
 .debug header{
 min-height: 100px;
 background-color: aquamarine;
-padding: 32px 20px;
+padding: 32px ;
 }    
-.debug main{
-min-height: 400px;
-background-color: blue;
-}
 
+.debug main{
+min-height: 1100px;
+background-color: lightgray;
+}
+.row-width{
+    width: 1000px;
+}
 .debug footer{
 min-height: 250px;
 background-color: goldenrod
@@ -33,4 +36,14 @@ padding: 4px;
 }
 .col-20{
     flex-basis: 20%;
+}
+.container-bg-blue{
+background-color: blue;
+min-width: 1000px;
+height: 400px; 
+}
+.pink-bg{
+    background-color: lightpink;
+    height: 200px;
+    width: 400px;
 }
