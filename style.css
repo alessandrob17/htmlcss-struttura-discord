@@ -10,6 +10,7 @@ max-width: 100%;
 .debug header{
 min-height: 100px;
 background-color: aquamarine;
+padding: 32px 20px;
 }    
 .debug main{
 min-height: 400px;
@@ -25,6 +26,11 @@ background-color: goldenrod
 }
 .row [class^='col']{
 border: 3px dashed black;
-padding: 10px;
-flex-basis: 25%;
+padding: 4px;
+}
+.col-60{
+    flex-basis: 60%;
+}
+.col-20{
+    flex-basis: 20%;
 }
